@@ -1,0 +1,22 @@
+---
+title: "R Markdown_1"
+author: "Sai"
+date: "17 September 2018"
+output: md_document
+---
+##Numeric Vector Manipulations
+```{r}
+age<-c(23,25,42,30,35)
+age
+```
+##Adding elements to the existing Vector
+```{r}
+age<-c(age,52)
+age
+```
+##Subsetting elements from the Vector
+```{r}
+age[3]
+age[c(2,5)]
+```
+
